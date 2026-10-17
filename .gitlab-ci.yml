@@ -1,0 +1,8 @@
+include:
+  - project: 'agents/platform'
+    ref: v0.1.2
+    file: '/ci/skill-ci.gitlab-ci.yml'
+
+# Static validation (SKILL.md metadata, yaml/shell/python lint, secret scan) +
+# stdlib/pytest unit tests. No container build; the skill only shells out to a
+# locally installed pandoc, exercised at runtime, not in CI.

@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+# Secrets & local env
+.env
+*.pem
+*.key
+id_*
+# Rendered output (don't commit generated PDFs)
+*.pdf
+# OS
+.DS_Store
